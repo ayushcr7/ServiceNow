@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">fc13cf732f993010f4e7de1a2799b6bc</sp_column>
+        <sp_widget display_value="Approval Record-clone">7540b2f32f593010f4e7de1a2799b65c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 08:39:55</sys_created_on>
+        <sys_id>fc13cf732f993010f4e7de1a2799b6be</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Approval Record</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sp_instance_fc13cf732f993010f4e7de1a2799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 06:21:15</sys_updated_on>
+        <title>Approval Record</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"use_approval_record_activity_stream": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc13cf732f993010f4e7de1a2799b6be"/>
+</record_update>

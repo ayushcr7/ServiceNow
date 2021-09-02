@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_536841_blits_assets</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Asset Owner Visibilty</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.hasRole('x_536841_blits.asset_user') && !gs.hasRole('x_536841_blits.asset_manager') && !gs.hasRole('admin') && !gs.hasRole('x_536841_blits.Dispatcher') && current.getTableName() == 'x_536841_blits_assets') {
+        current.addQuery('dispatcher.asset_owner', gs.getUserID());
+    }
+    if (gs.hasRole('x_536841_blits.asset_manager') && !gs.hasRole('admin') && !gs.hasRole('x_536841_blits.Dispatcher') && current.getTableName() == 'x_536841_blits_assets') {
+        current.addQuery('dispatcher.asset_owner.manager', gs.getUserID());
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-18 19:09:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95e7047f2f513010f4e7de1a2799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset Owner Visibilty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_script_95e7047f2f513010f4e7de1a2799b6b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-18 19:09:33</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=95e7047f2f513010f4e7de1a2799b6b3"/>
+</record_update>

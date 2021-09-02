@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>300</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 18:56:01</sys_created_on>
+        <sys_id>0b89a8f22fd53010f4e7de1a2799b6ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_536841_blits_assets</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_db_view_table_0b89a8f22fd53010f4e7de1a2799b6ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 18:56:12</sys_updated_on>
+        <table>x_536841_blits_assets</table>
+        <variable_prefix>asst</variable_prefix>
+        <view display_value="x_536841_blits_assessment_metric">5b88ecb22fd53010f4e7de1a2799b606</view>
+        <where_clause>asmi_id = asst_sys_id</where_clause>
+    </sys_db_view_table>
+</record_update>

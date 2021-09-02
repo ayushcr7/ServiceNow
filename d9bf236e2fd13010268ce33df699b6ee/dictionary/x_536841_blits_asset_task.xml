@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Asset Task" max_length="40" name="x_536841_blits_asset_task" sizeclass="37" type="collection">
+        <element label="Asset Record" max_length="32" name="asset_record" read_only="true" reference="x_536841_blits_assets" type="reference"/>
+        <element label="Assignee" max_length="32" name="assignee" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="20" value="wip"/>
+                <element inactive_on_update="false" label="Completed" sequence="30" value="completed"/>
+            </choice>
+        </element>
+    </element>
+</database>

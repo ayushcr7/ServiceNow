@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="DELETE">
+        <active>true</active>
+        <applicability display_value="List View">3a66376f2f113010f4e7de1a2799b69c</applicability>
+        <order>0</order>
+        <screen display_value="List Default">a2df276e8ed13010aa96137aea96b794</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>venkata</sys_created_by>
+        <sys_created_on>2021-07-24 10:09:00</sys_created_on>
+        <sys_id>62678d652fed7010f4e7de1a2799b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_62678d652fed7010f4e7de1a2799b671</sys_update_name>
+        <sys_updated_by>venkata</sys_updated_by>
+        <sys_updated_on>2021-07-24 10:09:00</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</application>
+        <file_path/>
+        <instance_id>118dec301b57e4507d9d2f8dee4bcbc7</instance_id>
+        <instance_name>dev109429</instance_name>
+        <name>sys_ux_applicability_m2m_screen_62678d652fed7010f4e7de1a2799b671</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen"><sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="List View">3a66376f2f113010f4e7de1a2799b69c</applicability><order>0</order><screen display_value="List Default">a2df276e8ed13010aa96137aea96b794</screen><sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name><sys_created_by>venkata</sys_created_by><sys_created_on>2021-07-24 10:09:00</sys_created_on><sys_id>62678d652fed7010f4e7de1a2799b671</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package><sys_policy/><sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope><sys_update_name>sys_ux_applicability_m2m_screen_62678d652fed7010f4e7de1a2799b671</sys_update_name><sys_updated_by>venkata</sys_updated_by><sys_updated_on>2021-07-24 10:09:00</sys_updated_on></sys_ux_applicability_m2m_screen></record_update>]]></payload>
+        <payload_hash>604874481</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>acf0bf2a2f153010f4e7de1a2799b6b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>venkata</sys_created_by>
+        <sys_created_on>2021-07-24 10:09:00</sys_created_on>
+        <sys_id>626709a52fed7010f4e7de1a2799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad7fd4e810000001</sys_recorded_at>
+        <sys_updated_by>venkata</sys_updated_by>
+        <sys_updated_on>2021-07-24 10:09:00</sys_updated_on>
+        <type>Screen Applicability</type>
+        <update_guid>aa6709a56bed7010361198a39742c58d</update_guid>
+        <update_guid_history>aa6709a56bed7010361198a39742c58d:604874481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>venkata</sys_created_by>
+        <sys_created_on>2021-07-24 10:09:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_screen">sys_ux_applicability_m2m_screen</sys_db_object>
+        <sys_id>09b0cd9a4a4d452c84dbff304e7c0890</sys_id>
+        <sys_metadata>62678d652fed7010f4e7de1a2799b671</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_scope_delete display_value="">988cd5ac707e44d4abd9d9274b3c1b90</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_screen_62678d652fed7010f4e7de1a2799b671</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_screen_62678d652fed7010f4e7de1a2799b671">626709a52fed7010f4e7de1a2799b68e</sys_update_version>
+        <sys_updated_by>venkata</sys_updated_by>
+        <sys_updated_on>2021-07-24 10:09:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

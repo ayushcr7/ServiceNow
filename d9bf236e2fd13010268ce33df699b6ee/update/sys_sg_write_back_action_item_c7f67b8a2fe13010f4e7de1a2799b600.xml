@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (Dispatcher)</name>
+        <parameter_screen/>
+        <query_condition table="x_536841_blits_dispatcher">sys_idSTARTSWITH{{Dispatcher sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Dispatcher sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 12:13:02</sys_created_on>
+        <sys_id>c7f67b8a2fe13010f4e7de1a2799b600</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (Dispatcher)</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_c7f67b8a2fe13010f4e7de1a2799b600</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-26 12:13:02</sys_updated_on>
+        <table>x_536841_blits_dispatcher</table>
+        <template>asset={{Dispatcher asset}}^asset_name={{Dispatcher asset_name}}^asset_owner={{Dispatcher asset_owner}}^asset_supplier={{Dispatcher asset_supplier}}^asset_tag={{Dispatcher asset_tag}}^asset_url={{Dispatcher asset_url}}^assigned={{Dispatcher assigned}}^assigned_to={{Dispatcher assigned_to}}^assignment_group={{Dispatcher assignment_group}}^attestation_score={{Dispatcher attestation_score}}^attested={{Dispatcher attested}}^attested_by={{Dispatcher attested_by}}^attested_date={{Dispatcher attested_date}}^attributes={{Dispatcher attributes}}^can_print={{Dispatcher can_print}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7f67b8a2fe13010f4e7de1a2799b600"/>
+</record_update>

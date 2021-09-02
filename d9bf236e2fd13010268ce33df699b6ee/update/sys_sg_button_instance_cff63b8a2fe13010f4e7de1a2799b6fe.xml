@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Dispatcher)">43f63b8a2fe13010f4e7de1a2799b6fd</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (Dispatcher)</name>
+        <order/>
+        <parent>faf63b8a2fe13010f4e7de1a2799b6f8</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 12:13:02</sys_created_on>
+        <sys_id>cff63b8a2fe13010f4e7de1a2799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Dispatcher)</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_sg_button_instance_cff63b8a2fe13010f4e7de1a2799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-26 12:13:02</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=cff63b8a2fe13010f4e7de1a2799b6fe"/>
+</record_update>

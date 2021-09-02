@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Dispatch">902694872f517010f4e7de1a2799b66c</category>
+        <columns>asset_name,asset_owner,assigned_to,change_control,asset,attested_by,company,cost_center,duplicate_of</columns>
+        <condition/>
+        <configuration display_value="BLITS_menu_config">8fdf276e2fd13010268ce33df699b6bf</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-16 12:10:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>634690c72f517010f4e7de1a2799b655</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All Dispatch</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_ux_list_634690c72f517010f4e7de1a2799b655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 07:41:56</sys_updated_on>
+        <table>x_536841_blits_dispatcher</table>
+        <title>All Dispatch</title>
+    </sys_ux_list>
+</record_update>

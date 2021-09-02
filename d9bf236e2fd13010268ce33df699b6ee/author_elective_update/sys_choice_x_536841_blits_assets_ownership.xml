@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ownership" table="x_536841_blits_assets" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ownership</element>
+            <name>x_536841_blits_assets</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-15 16:20:39</sys_created_on>
+            <sys_id>4b260c3a2f553010f4e7de1a2799b640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ownership</sys_name>
+            <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+            <sys_update_name>sys_choice_x_536841_blits_assets_ownership</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-15 16:20:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ownership</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_536841_blits_assets</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-15 16:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f260c3a2f553010f4e7de1a2799b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-15 16:20:39</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ownership</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Take Ownership</label>
+            <language>en</language>
+            <name>x_536841_blits_assets</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>venkata</sys_created_by>
+            <sys_created_on>2021-07-21 15:31:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03647aec2f653010f4e7de1a2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>venkata</sys_updated_by>
+            <sys_updated_on>2021-07-21 15:31:56</sys_updated_on>
+            <value>takeownership</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ownership</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transfer Asset to IT</label>
+            <language>en</language>
+            <name>x_536841_blits_assets</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>venkata</sys_created_by>
+            <sys_created_on>2021-07-21 15:32:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>659436ec2f653010f4e7de1a2799b6db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>venkata</sys_updated_by>
+            <sys_updated_on>2021-07-21 15:32:26</sys_updated_on>
+            <value>transferassettoit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ownership</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stop Usage</label>
+            <language>en</language>
+            <name>x_536841_blits_assets</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>venkata</sys_created_by>
+            <sys_created_on>2021-07-21 15:32:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31b43a202fa53010f4e7de1a2799b6e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>venkata</sys_updated_by>
+            <sys_updated_on>2021-07-21 15:32:52</sys_updated_on>
+            <value>stopusage</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

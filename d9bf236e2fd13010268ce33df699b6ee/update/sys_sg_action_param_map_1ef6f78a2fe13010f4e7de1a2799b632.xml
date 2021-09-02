@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Assets)">46f6b78a2fe13010f4e7de1a2799b6fd</button>
+        <item_parameter display_value="Assets checked_in">02f6b78a2fe13010f4e7de1a2799b6f8</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 12:12:59</sys_created_on>
+        <sys_id>1ef6f78a2fe13010f4e7de1a2799b632</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>02f6b78a2fe13010f4e7de1a2799b6f8</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_1ef6f78a2fe13010f4e7de1a2799b632</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-26 12:12:59</sys_updated_on>
+        <ui_parameter display_value="Checked in">0ef6f78a2fe13010f4e7de1a2799b616</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

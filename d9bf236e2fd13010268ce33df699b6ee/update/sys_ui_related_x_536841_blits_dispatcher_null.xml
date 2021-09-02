@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_536841_blits_dispatcher" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dispatcher - Default view" name="x_536841_blits_dispatcher" related_list="NULL" sys_domain="global" view="Default view">17c4be172f513010f4e7de1a2799b68c</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:c019c0fa2f553010f4e7de1a2799b699</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:20:35</sys_created_on>
+            <sys_id>1fc4b2572f513010f4e7de1a2799b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:20:35</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dispatcher - Default view" name="x_536841_blits_dispatcher" related_list="NULL" sys_domain="global" view="Default view">17c4be172f513010f4e7de1a2799b68c</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:b4f3bad32f513010f4e7de1a2799b637</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:20:35</sys_created_on>
+            <sys_id>57c4b2572f513010f4e7de1a2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:20:35</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Dispatcher - Default view</calculated_name>
+            <filter/>
+            <name>x_536841_blits_dispatcher</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:20:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17c4be172f513010f4e7de1a2799b68c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dispatcher - Default view</sys_name>
+            <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+            <sys_update_name>sys_ui_related_x_536841_blits_dispatcher_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:20:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

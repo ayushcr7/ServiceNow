@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=2b2ec0fe2f553010f4e7de1a2799b6ed^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="2b2ec0fe2f553010f4e7de1a2799b6ed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="BLIT Questionnaire">2b2ec0fe2f553010f4e7de1a2799b6ed</metric_type>
+        <name>New Category</name>
+        <order>200</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 17:39:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd48dc762f953010f4e7de1a2799b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Category</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>asmt_metric_category_bd48dc762f953010f4e7de1a2799b6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 17:39:46</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics/>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=bd48dc762f953010f4e7de1a2799b6e7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</application>
+        <file_path/>
+        <instance_id>118dec301b57e4507d9d2f8dee4bcbc7</instance_id>
+        <instance_name>dev109429</instance_name>
+        <name>asmt_metric_category_bd48dc762f953010f4e7de1a2799b6e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=2b2ec0fe2f553010f4e7de1a2799b6ed^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="2b2ec0fe2f553010f4e7de1a2799b6ed"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="BLIT Questionnaire">2b2ec0fe2f553010f4e7de1a2799b6ed</metric_type><name>New Category</name><order>200</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-15 17:39:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd48dc762f953010f4e7de1a2799b6e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Category</sys_name><sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package><sys_policy/><sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope><sys_update_name>asmt_metric_category_bd48dc762f953010f4e7de1a2799b6e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-15 17:39:46</sys_updated_on><table>asmt_metric_type</table><total_metrics/><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=bd48dc762f953010f4e7de1a2799b6e7"/></record_update>]]></payload>
+        <payload_hash>1889733212</payload_hash>
+        <record_name>New Category</record_name>
+        <reverted_from/>
+        <source>acf0bf2a2f153010f4e7de1a2799b6b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 17:39:46</sys_created_on>
+        <sys_id>fd48dc762f953010f4e7de1a2799b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aab40c3c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 17:39:46</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>3948dc7666953010712424878b2fecea</update_guid>
+        <update_guid_history>3948dc7666953010712424878b2fecea:1889733212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Category">bb5890b62f953010f4e7de1a2799b63c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 17:40:10</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>3c5a1e7b82a947bea22c3148175999e9</sys_id>
+        <sys_metadata>bd48dc762f953010f4e7de1a2799b6e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Category</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_scope_delete display_value="">988cd5ac707e44d4abd9d9274b3c1b90</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_bd48dc762f953010f4e7de1a2799b6e7</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_bd48dc762f953010f4e7de1a2799b6e7">fd48dc762f953010f4e7de1a2799b6ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 17:40:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

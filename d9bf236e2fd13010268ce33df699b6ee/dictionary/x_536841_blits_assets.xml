@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Assets" max_length="40" name="x_536841_blits_assets" sizeclass="39" type="collection">
+        <element label="Dispatcher" max_length="32" name="dispatcher" reference="x_536841_blits_dispatcher" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Ownership" max_length="40" name="ownership" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Take Ownership" sequence="100" value="takeownership"/>
+                <element inactive_on_update="false" label="Transfer Asset to IT" sequence="200" value="transferassettoit"/>
+                <element inactive_on_update="false" label="Stop Usage" sequence="300" value="stopusage"/>
+            </choice>
+        </element>
+        <element choice="1" label="Questionnaire Result" max_length="40" name="questionnaire_result" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="BLIT" sequence="20" value="blit"/>
+                <element inactive_on_update="false" label="Non BLIT" sequence="30" value="non_blit"/>
+            </choice>
+        </element>
+        <element label="SignOff" max_length="40" name="signoff" read_only="true" type="boolean"/>
+    </element>
+</database>

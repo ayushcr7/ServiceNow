@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_signature">
+    <asmt_signature action="INSERT_OR_UPDATE">
+        <assertion><![CDATA[<div>
+<div id="asmt_metric_type.form_scroll">
+<div id="popover375060">
+<div><form id="asmt_signature.do">
+<div id="div_asmt_signature">
+<div id="e32e1a429f3121002920f7f8677fcf2c">
+<div>
+<div>
+<div id="element.asmt_signature.assertion">
+<div>
+<p><em>I declare that I answered this questionnaire truthfully and take full responsibility for the usage of this asset and any required follow-up actions.</em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form></div>
+</div>
+</div>
+<p><em>Your use of assets have a real-time impact on the organization’s protection level against external threats, compliance with Legal and Regulatory requirements, and our corporate policy. Please confirm that: </em></p>
+<p><em>- You provided the answers truthfully and to the best of your knowledge</em></p>
+<p><em> -- You agree with the questionnaire result and take full responsibility for the follow up actions as the result of the questionnaire outcome</em></p>
+<p><em>-- You take ownership of the asset and accept the risk for the usage of the asset</em></p>
+</div>]]></assertion>
+        <name>Declaration of truthfulness</name>
+        <sys_class_name>asmt_signature</sys_class_name>
+        <sys_created_by>venkata</sys_created_by>
+        <sys_created_on>2021-07-21 11:50:39</sys_created_on>
+        <sys_id>1fa18e2c2fe13010f4e7de1a2799b6f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Declaration of truthfulness</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>asmt_signature_1fa18e2c2fe13010f4e7de1a2799b6f8</sys_update_name>
+        <sys_updated_by>venkata</sys_updated_by>
+        <sys_updated_on>2021-07-21 13:20:13</sys_updated_on>
+        <type>checkbox</type>
+    </asmt_signature>
+    <sys_translated_text action="delete_multiple" query="documentkey=1fa18e2c2fe13010f4e7de1a2799b6f8"/>
+</record_update>

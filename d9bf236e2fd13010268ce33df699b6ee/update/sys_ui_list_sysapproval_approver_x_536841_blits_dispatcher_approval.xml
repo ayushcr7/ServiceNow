@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_536841_blits_dispatcher" relationship="" sys_domain="global" table="sysapproval_approver" version="2" view="approval">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_536841_blits_dispatcher" relationship="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">66f4b2572f513010f4e7de1a2799b6fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:21:21</sys_created_on>
+            <sys_id>a2f4b2572f513010f4e7de1a2799b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:21:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approver</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_536841_blits_dispatcher" relationship="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">66f4b2572f513010f4e7de1a2799b6fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:21:21</sys_created_on>
+            <sys_id>26f4b2572f513010f4e7de1a2799b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:21:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_536841_blits_dispatcher" relationship="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">66f4b2572f513010f4e7de1a2799b6fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:21:21</sys_created_on>
+            <sys_id>a6f4b2572f513010f4e7de1a2799b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:21:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sysapproval</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_536841_blits_dispatcher" relationship="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">66f4b2572f513010f4e7de1a2799b6fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:21:21</sys_created_on>
+            <sys_id>2af4b2572f513010f4e7de1a2799b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:21:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sysapproval_approver" element="NULL" name="sysapproval_approver" parent="x_536841_blits_dispatcher" relationship="NULL" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">66f4b2572f513010f4e7de1a2799b6fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:21:21</sys_created_on>
+            <sys_id>aaf4b2572f513010f4e7de1a2799b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:21:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sysapproval_approver</name>
+            <parent>x_536841_blits_dispatcher</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-17 18:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66f4b2572f513010f4e7de1a2799b6fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+            <sys_update_name>sys_ui_list_sysapproval_approver_x_536841_blits_dispatcher_approval</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-17 18:21:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

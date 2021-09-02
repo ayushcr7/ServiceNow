@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_536841_blits.BLIT_Utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Collection of Functions for BLITS Application</description>
+        <name>BLIT_Utils</name>
+        <script><![CDATA[var BLIT_Utils = Class.create();
+BLIT_Utils.prototype = {
+    initialize: function() {},
+
+    RiskResult: function(instance) {
+        var high = [];
+        var medium = [];
+        var low = [];
+        var score = new GlideRecord('asmt_metric_result');
+        score.addQuery('instance', instance);
+		score.addEncodedQuery('metric.name!=Q1');
+        score.query();
+        while (score.next()) {
+            if (score.actual_value == '3') {
+                high.push(score.actual_value + '');
+            } else if (score.actual_value == '2') {
+                medium.push(score.actual_value + '');
+            } else if (score.actual_value == '1') {
+                low.push(score.actual_value + '');
+            }
+        }
+        if (high.length > 0) {
+            return 'non_blit';
+        } 
+        return 'blit';
+        
+    },
+
+    updateCheckBox: function(instance, bool, val) {
+        var cb = new GlideRecord('asmt_assessment_instance');
+        cb.addQuery('sys_id', instance);
+        cb.query();
+        if (cb.next()) {
+            var asst = new GlideRecord('x_536841_blits_assets');
+            if (asst.get(cb.trigger_id + '')) {
+               // asst.u_signoff = bool;
+                asst.ownership = val;
+                asst.update();
+            }
+            return asst.sys_id;
+        }
+        return false;
+    },
+
+
+
+    displaypq: function() {
+        var us = gs.getUserID();
+        var ai = new GlideRecord('asmt_assessment_instance');
+        ai.addEncodedQuery('metric_type.evaluation_method=survey^state!=complete^userDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
+        ai.query();
+
+        if (ai.next()) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+
+    AssessmentURL: function(val) {
+        var instanceURL = gs.getProperty("glide.servlet.uri");
+        var link = instanceURL + '/sp' + '?id=take_survey4&instance_id=' + val.sys_id;
+        var html = gs.getMessage("Take me to the Survey");
+        return '<a href="' + link + '">' + html + '</a>';
+    },
+    type: 'BLIT_Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 18:58:39</sys_created_on>
+        <sys_id>380cf6db2f513010f4e7de1a2799b618</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>BLIT_Utils</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_script_include_380cf6db2f513010f4e7de1a2799b618</sys_update_name>
+        <sys_updated_by>venkata</sys_updated_by>
+        <sys_updated_on>2021-07-21 15:36:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

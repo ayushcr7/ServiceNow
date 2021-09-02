@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">2b4878fe2fd53010f4e7de1a2799b607</macroponent>
+        <name>Conditionally refresh special handing notes data broker</name>
+        <required_translations/>
+        <script><![CDATA[function handler({ api, event, helpers, imports }) {
+    const { name } = event.payload;
+    if (name != 'activityLogs')
+        return;
+
+    const activityLogsMap = api.context.props.activityLogs;
+    if (activityLogsMap.size === 0)
+        return;
+
+    var activityEntries = Array.from(activityLogsMap.values());
+
+    //Only fetch the lastest activity entry
+    const activityEntry = activityEntries[activityEntries.length - 1];
+    const activityArray = activityEntry.activities.get('crud');
+    if (activityArray.length === 0)
+        return;
+
+    const SHNDisplayed = api.state.specialHandlingNotesDisplayed;
+    const isActiveScreen = api.context.props.screen.isActive;
+    //Refresh Special Handing Notes only when it's not displayed before and current screen is active
+    if (SHNDisplayed || !isActiveScreen)
+        return;
+
+    //Only fetch the lastest operation
+    const { operation } = activityArray[activityArray.length - 1];
+    if (operation === 'inserted' || operation === 'updated') {
+        api.data.get_special_handling_notes.refresh();
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 19:59:43</sys_created_on>
+        <sys_id>fb4878fe2fd53010f4e7de1a2799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditionally refresh special handing notes data broker</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_ux_client_script_fb4878fe2fd53010f4e7de1a2799b61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 19:59:43</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

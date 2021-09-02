@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>serial_number-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 12:12:54</sys_created_on>
+        <sys_id>45f6f38a2fe13010f4e7de1a2799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>serial_number-FieldValue</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_45f6f38a2fe13010f4e7de1a2799b6cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-26 12:12:54</sys_updated_on>
+        <view_config display_value="Asset Task List Screen View Config">bcf6f38a2fe13010f4e7de1a2799b684</view_config>
+        <view_template_slot display_value="text_05">b4f4c13041275010f877183fc9b8be56</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

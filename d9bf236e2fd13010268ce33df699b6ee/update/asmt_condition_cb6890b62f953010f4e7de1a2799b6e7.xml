@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_condition">
+    <asmt_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assessment display_value="BLIT Questionnaire">2b2ec0fe2f553010f4e7de1a2799b6ed</assessment>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule display_value="Auto assessment business rule">b2a890b62f953010f4e7de1a2799b6cc</business_rule>
+        <condition table="x_536841_blits_assets">sys_idISNOTEMPTY^dispatcherISNOTEMPTY^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="dispatcher" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration/>
+        <percent_random>100</percent_random>
+        <related_field_1/>
+        <related_field_2/>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 17:41:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb6890b62f953010f4e7de1a2799b6e7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>asmt_condition_cb6890b62f953010f4e7de1a2799b6e7</sys_update_name>
+        <sys_updated_by>venkata</sys_updated_by>
+        <sys_updated_on>2021-07-21 13:05:42</sys_updated_on>
+        <table>x_536841_blits_assets</table>
+        <trigger_random>true</trigger_random>
+        <user_field>dispatcher.asset_owner</user_field>
+    </asmt_condition>
+</record_update>

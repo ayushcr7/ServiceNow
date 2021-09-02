@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci" label="Dispatcher" max_length="40" name="x_536841_blits_dispatcher" sizeclass="48" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Asset Name" mandatory="true" max_length="40" name="asset_name" type="string"/>
+        <element label="Asset Owner" mandatory="true" max_length="32" name="asset_owner" reference="sys_user" type="reference"/>
+        <element label="Asset Supplier" mandatory="true" max_length="40" name="asset_supplier" type="string"/>
+        <element label="Asset URL" max_length="1024" name="asset_url" type="url"/>
+        <element label="Notify Asset Owner" max_length="40" name="email" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reason for Using Solution" max_length="4000" name="reason" type="string"/>
+        <element choice="1" label="Shadow IT Type" mandatory="true" max_length="40" name="shadow_it_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Type 1 – off-premises" sequence="10" value="type_1"/>
+                <element inactive_on_update="false" label="Type 2 – on-premises" sequence="20" value="type_2"/>
+                <element inactive_on_update="false" label="Type 3 – Auxiliary systems" sequence="30" value="type_3"/>
+                <element inactive_on_update="false" label="Type 4 – Acquired through acquisition" sequence="40" value="type_4"/>
+                <element inactive_on_update="false" label="Type 5 – Custom development" sequence="50" value="type_5"/>
+            </choice>
+        </element>
+    </element>
+</database>

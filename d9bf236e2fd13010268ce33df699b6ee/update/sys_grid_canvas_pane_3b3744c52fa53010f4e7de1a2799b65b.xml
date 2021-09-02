@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Assets Overview - New Tab">5cf6c0092fa53010f4e7de1a2799b6bd</grid_canvas>
+        <height>8</height>
+        <portal_widget display_value="Created 2021-07-22 09:11:41">773744c52fa53010f4e7de1a2799b658</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-22 16:11:41</sys_created_on>
+        <sys_id>3b3744c52fa53010f4e7de1a2799b65b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>5cf6c0092fa53010f4e7de1a2799b6bd</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_3b3744c52fa53010f4e7de1a2799b65b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-22 16:28:05</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

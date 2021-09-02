@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_536841_blits.asset_user" name="x_536841_blits.asset_user">32b96fa32f113010f4e7de1a2799b695</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-18 16:50:31</sys_created_on>
+        <sys_id>b5c9afa32f113010f4e7de1a2799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>32b96fa32f113010f4e7de1a2799b695</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b5c9afa32f113010f4e7de1a2799b62a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-18 16:50:31</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

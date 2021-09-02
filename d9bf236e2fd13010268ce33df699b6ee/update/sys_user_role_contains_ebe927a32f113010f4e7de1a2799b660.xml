@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_536841_blits.asset_user" name="x_536841_blits.asset_user">32b96fa32f113010f4e7de1a2799b695</contains>
+        <role display_value="x_536841_blits.asset_admin" name="x_536841_blits.asset_admin">1fc927a32f113010f4e7de1a2799b659</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-18 16:51:11</sys_created_on>
+        <sys_id>ebe927a32f113010f4e7de1a2799b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_536841_blits.asset_user.x_536841_blits.asset_admin</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_user_role_contains_ebe927a32f113010f4e7de1a2799b660</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-18 16:51:11</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="INSERT_OR_UPDATE">
+        <action_condition/>
+        <action_label>Attach</action_label>
+        <action_undo_label/>
+        <action_value>attach</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type>embed_link</attachment_type>
+        <badge_label>Attached</badge_label>
+        <current_action_condition/>
+        <current_table/>
+        <order>300</order>
+        <rest_api/>
+        <search_res_config/>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.PinnedArticleSearchResource</search_resource>
+        <search_ui_action display_value="Attach">d587f286872a0300692cbba826cb0b6a</search_ui_action>
+        <search_ui_config display_value="Dispatcher [x_536841_blits_dispatcher]">a376f47e2fd53010f4e7de1a2799b68f</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 19:52:09</sys_created_on>
+        <sys_id>019634be2fd53010f4e7de1a2799b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>cxs_ui_action_config_019634be2fd53010f4e7de1a2799b63a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 19:52:09</sys_updated_on>
+        <table>kb_knowledge</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=019634be2fd53010f4e7de1a2799b63a"/>
+</record_update>

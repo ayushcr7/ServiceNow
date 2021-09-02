@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 16:14:37</sys_created_on>
+        <sys_id>2ec448f62f553010f4e7de1a2799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_536841_blits_dispatcher.x_536841_blits.Dispatcher</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_security_acl display_value="x_536841_blits_dispatcher">a2c448f62f553010f4e7de1a2799b625</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2ec448f62f553010f4e7de1a2799b627</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 16:14:37</sys_updated_on>
+        <sys_user_role display_value="x_536841_blits.Dispatcher" name="x_536841_blits.Dispatcher">eac448f62f553010f4e7de1a2799b612</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

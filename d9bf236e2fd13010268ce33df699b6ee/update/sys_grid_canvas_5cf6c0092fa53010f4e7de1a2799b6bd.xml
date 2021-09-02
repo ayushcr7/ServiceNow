@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Assets Overview - New Tab">10f6c0092fa53010f4e7de1a2799b6bc</legacy_page>
+        <name>PA Assets Overview - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-22 16:10:21</sys_created_on>
+        <sys_id>5cf6c0092fa53010f4e7de1a2799b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Assets Overview - New Tab</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_grid_canvas_5cf6c0092fa53010f4e7de1a2799b6bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-22 16:10:21</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

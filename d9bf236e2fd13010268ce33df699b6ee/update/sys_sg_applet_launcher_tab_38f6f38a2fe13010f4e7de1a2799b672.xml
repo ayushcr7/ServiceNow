@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="BLITS">b8f6f38a2fe13010f4e7de1a2799b670</applet_launcher>
+        <icon display_value="Home BLITS">78f6f38a2fe13010f4e7de1a2799b672</icon>
+        <label>BLITS</label>
+        <roles>x_536841_blits.asset_admin,x_536841_blits.asset_manager,x_536841_blits.asset_user,x_536841_blits.Dispatcher,admin</roles>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 12:12:53</sys_created_on>
+        <sys_id>38f6f38a2fe13010f4e7de1a2799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BLITS</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_38f6f38a2fe13010f4e7de1a2799b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-26 12:12:53</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

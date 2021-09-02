@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>trigger_approval</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Trigger Approval</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 17:07:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ef36e172f113010f4e7de1a2799b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trigger Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_hub_flow_0ef36e172f113010f4e7de1a2799b670</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 17:07:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=0ef36e172f113010f4e7de1a2799b670"/>
+    <sys_variable_value action="DELETE" query="document_key=0ef36e172f113010f4e7de1a2799b670"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=0ef36e172f113010f4e7de1a2799b670^sys_idNOT IN82f36e172f113010f4e7de1a2799b673"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>0ef36e172f113010f4e7de1a2799b670</id>
+        <name>Trigger Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 17:07:02</sys_created_on>
+        <sys_id>82f36e172f113010f4e7de1a2799b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 17:07:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</application>
+        <file_path/>
+        <instance_id>118dec301b57e4507d9d2f8dee4bcbc7</instance_id>
+        <instance_name>dev109429</instance_name>
+        <name>sys_hub_flow_0ef36e172f113010f4e7de1a2799b670</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><internal_name>trigger_approval</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Trigger Approval</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-17 17:07:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ef36e172f113010f4e7de1a2799b670</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Trigger Approval</sys_name><sys_overrides/><sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package><sys_policy/><sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope><sys_update_name>sys_hub_flow_0ef36e172f113010f4e7de1a2799b670</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-17 17:07:02</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=0ef36e172f113010f4e7de1a2799b670"/><sys_variable_value action="delete_multiple" query="document_key=0ef36e172f113010f4e7de1a2799b670"/><sys_flow_cat_variable_model action="delete_multiple" query="id=0ef36e172f113010f4e7de1a2799b670^sys_idNOT IN82f36e172f113010f4e7de1a2799b673"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>0ef36e172f113010f4e7de1a2799b670</id><name>Trigger Approval</name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-17 17:07:02</sys_created_on><sys_id>82f36e172f113010f4e7de1a2799b673</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-17 17:07:02</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-1247511838</payload_hash>
+        <record_name>Trigger Approval</record_name>
+        <reverted_from/>
+        <source>acf0bf2a2f153010f4e7de1a2799b6b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 17:07:03</sys_created_on>
+        <sys_id>46f36e172f113010f4e7de1a2799b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ab56f86f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 17:07:03</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8ef36e17c6113010544de6dc0c29ab76</update_guid>
+        <update_guid_history>8ef36e17c6113010544de6dc0c29ab76:-1247511838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-17 18:27:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>1f0edd7725a1462e84c6843755ecb839</sys_id>
+        <sys_metadata>0ef36e172f113010f4e7de1a2799b670</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trigger Approval</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_scope_delete display_value="">988cd5ac707e44d4abd9d9274b3c1b90</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_0ef36e172f113010f4e7de1a2799b670</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_0ef36e172f113010f4e7de1a2799b670">46f36e172f113010f4e7de1a2799b677</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 18:27:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

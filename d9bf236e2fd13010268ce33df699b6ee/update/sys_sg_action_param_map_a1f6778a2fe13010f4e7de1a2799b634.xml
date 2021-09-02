@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Asset Task)">55f6378a2fe13010f4e7de1a2799b6cb</button>
+        <item_parameter display_value="Asset Task assigned_to">d1f6378a2fe13010f4e7de1a2799b690</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 12:12:56</sys_created_on>
+        <sys_id>a1f6778a2fe13010f4e7de1a2799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d1f6378a2fe13010f4e7de1a2799b690</sys_name>
+        <sys_package display_value="BLITS" source="x_536841_blits">d9bf236e2fd13010268ce33df699b6ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BLITS">d9bf236e2fd13010268ce33df699b6ee</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_a1f6778a2fe13010f4e7de1a2799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-26 12:12:56</sys_updated_on>
+        <ui_parameter display_value="Assigned to">e9f6378a2fe13010f4e7de1a2799b6ee</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
